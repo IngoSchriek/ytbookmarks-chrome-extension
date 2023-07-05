@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    min-width: 250px;
+    min-height: 50px;
+    padding: 20px;
+}
+
+.title {
+    font-weight: 500;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 16px;
+}
+
+.logo-name {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: brown;
+    margin-left: 10px;
+}
+
+.youtube {
+    color: brown;
+}
+
+.footer {
+    width: 100%;
+    border-top: 1px solid rgb(231, 231, 231);
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 15px;
+}
+
+.footer a {
+    color: rgb(187, 187, 187);
+    text-decoration: none;
+}
+
+.bookmark {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+input {
+    font-family: inherit;
+    border: none;
+    color: rgb(49, 49, 49);
+    font-weight: 500;
+    max-width: 150px;
+}
+.bookmark-controls * {
+    max-width: 20px;
+    margin-left: 10px;
+}
+
+.bookmark-controls {
+    cursor: pointer;
+}
+
+p {
+    color: rgb(187, 187, 187);
+    text-align: center;
+    margin: 15px auto;
+}
